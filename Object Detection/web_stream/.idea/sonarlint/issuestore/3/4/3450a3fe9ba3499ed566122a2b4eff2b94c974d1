@@ -1,0 +1,8 @@
+
+spython:S117"WRename this parameter "accumWeight" to match the regular expression ^[_a-z][a-z0-9_]*$.(ğ«™Úùÿÿÿÿ
+gpython:S117"PRename this parameter "tVal" to match the regular expression ^[_a-z][a-z0-9_]*$.(ãß
+qpython:S117)"URename this local variable "minX" to match the regular expression ^[_a-z][a-z0-9_]*$.(æ²ãÓûÿÿÿÿ
+qpython:S117)"URename this local variable "minY" to match the regular expression ^[_a-z][a-z0-9_]*$.(æ²ãÓûÿÿÿÿ
+qpython:S117*"URename this local variable "maxX" to match the regular expression ^[_a-z][a-z0-9_]*$.(§ƒ×†ÿÿÿÿÿ
+qpython:S117*"URename this local variable "maxY" to match the regular expression ^[_a-z][a-z0-9_]*$.(§ƒ×†ÿÿÿÿÿ
+ipython:S116"SRename this field "accumWeight" to match the regular expression ^[_a-z][_a-z0-9]*$.(„¹…B

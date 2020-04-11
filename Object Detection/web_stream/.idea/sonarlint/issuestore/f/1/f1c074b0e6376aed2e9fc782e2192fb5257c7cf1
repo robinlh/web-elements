@@ -1,0 +1,8 @@
+
+rpython:S117%"VRename this parameter "frameCount" to match the regular expression ^[_a-z][a-z0-9_]*$.(À‘˜ûÿÿÿÿ
+qpython:S117C"URename this local variable "minX" to match the regular expression ^[_a-z][a-z0-9_]*$.(È“˜Ûşÿÿÿÿ
+qpython:S117C"URename this local variable "minY" to match the regular expression ^[_a-z][a-z0-9_]*$.(È“˜Ûşÿÿÿÿ
+qpython:S117C"URename this local variable "maxX" to match the regular expression ^[_a-z][a-z0-9_]*$.(È“˜Ûşÿÿÿÿ
+qpython:S117C"URename this local variable "maxY" to match the regular expression ^[_a-z][a-z0-9_]*$.(È“˜Ûşÿÿÿÿ
+spython:S117T"\Rename this local variable "outputFrame" to match the regular expression ^[_a-z][a-z0-9_]*$.(õÈØÚ
+spython:S117d"]Rename this local variable "encodedImage" to match the regular expression ^[_a-z][a-z0-9_]*$.(£î–L

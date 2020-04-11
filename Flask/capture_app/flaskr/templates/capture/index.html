@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Captures{% endblock %}</h1>
+  {% if g.user %}
+    <a class="action" href="{{ url_for('capture.create') }}">New</a>
+  {% endif %}
+{% endblock %}
+
+{% block content %}
+  {% for capture in captures %}
+    <article class="post">
+      <header>
+        <div>
+          <h1>{{ capture['section'] }}</h1>
+          <div class="about">by {{ capture['username'] }} on {{ capture['created'].strftime('%Y-%m-%d') }}</div>
+        </div>
+        {% if g.user['id'] == capture['emp_id'] %}
+          <a class="action" href="{{ url_for('capture.update', id=capture['id']) }}">Edit</a>
+        {% endif %}
+      </header>
+      <p class="Data">{{ capture['data'] }}</p>
+    </article>
+    {% if not loop.last %}
+      <hr>
+    {% endif %}
+  {% endfor %}
+{% endblock %}

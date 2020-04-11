@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Edit "{{ entry['section'] }}"{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <form method="post">
+    <label for="section">Section</label>
+    <input name="section" id="section"
+      value="{{ request.form['section'] or entry['section'] }}" required>
+    <label for="data">Data</label>
+    <textarea name="data" id="data">{{ request.form['data'] or entry['data'] }}</textarea>
+    <input type="submit" value="Save">
+  </form>
+  <hr>
+  <form action="{{ url_for('capture.delete', id=entry['id']) }}" method="post">
+    <input class="danger" type="submit" value="Delete" onclick="return confirm('Are you sure?');">
+  </form>
+{% endblock %}
