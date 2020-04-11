@@ -13,8 +13,3 @@ class Telegram:
         return response.json()
 
 
-# token = '967624914:AAEOGku9Kuud_NudwsLVpvODBgZIY2CIGOA'
-# id = '432518661'
-# test = Telegram(token, id)
-# result = test.telegram_bot_sendtext('testing bot')
-# print(result)

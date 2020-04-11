@@ -20,8 +20,8 @@ lock = threading.Lock()
 app = Flask(__name__)
 
 # initialize telegram obj
-bot_token = '967624914:AAEOGku9Kuud_NudwsLVpvODBgZIY2CIGOA'
-bot_id = '432518661'
+bot_token = <bot_token>
+bot_id = <bot_id>
 telegram_bot = Telegram(bot_token, bot_id)
 motion_detected = False
 
