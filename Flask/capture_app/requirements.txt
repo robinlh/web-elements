@@ -1,5 +1,5 @@
 Click==7.0
-Flask==1.1.1
+Flask==2.3.2
 # Editable install with no version control (flaskr==1.0.0)
 -e /home/robinh/PythonProjects/FlaskLearning/capture_app
 itsdangerous==1.1.0
